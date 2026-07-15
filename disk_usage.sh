@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+# calculating usage 
 THRESHOLD=80
 USAGE=$( df -h / | grep / | awk '{print $5}' | sed 's/%//' )
 
